@@ -1,0 +1,17 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "phoneNumber",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "type": "twilioSms",
+      "direction": "out",
+      "name": "message",
+      "accountSidSetting": "TwilioAccountSid",
+      "authTokenSetting": "TwilioAuthToken"
+    }
+  ]
+}
